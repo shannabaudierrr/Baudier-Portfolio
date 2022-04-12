@@ -292,7 +292,7 @@ textarea {
 }
 .header-elements{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   padding-bottom: 10pt;
   padding-top: 15pt;
   max-width: 1000px;
@@ -361,6 +361,35 @@ textarea {
 .homepage{
   margin: 30pt;
   display: flex;
-  gap: 30pt;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+.homepage img{
+  max-width: 400px;
+  height: auto;
+}
+.homepage-text{
+  max-width: 50%;
+  font-size: 20pt;
+}
+.homepage-title{
+  font-size: 30pt;
+  color:rgb(51, 34, 19) ;
+}
+.resume-button{
+  padding: 20px;
+  text-align: center;
+}
+.resume-button button{
+  background-color: rgb(73, 56, 42);
+  color: white;
+  font-size: 16pt;
+  padding: 15px;
+  box-shadow: 3px 3px 5px black ;
+  border-radius: 8px;
+}
+.resume-button button:hover{
+  background-color:rgb(105, 92, 81);
+  box-shadow: inset 0 0 5px rgb(51, 34, 19)
 }
