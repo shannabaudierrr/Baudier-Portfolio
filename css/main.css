@@ -260,6 +260,28 @@ textarea {
     page-break-after: avoid;
   }
 }
+/* GRID STUFF */
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "body"
+    "footer";
+  /* min-height: 100vh; */
+  grid-template-rows: min-content 1fr min-content;
+}
+.portfolio-header{
+  grid-area: header;
+  background-color: antiquewhite;
+}
+.portfolio-body{
+  grid-area: body;
+  background-color: green;
+}
+.portfolio-footer{
+  grid-area: footer;
+  background-color: cornflowerblue;
+}
 /* HEADER */
 .portfolio-header{
   background-color: antiquewhite;
@@ -292,7 +314,6 @@ textarea {
   font-size: 16px;
   background-color: rgb(73, 56, 42);
   border: none;
-  outline: none;
   padding: 14px 16px;
 }
 .dropdown button{
@@ -328,4 +349,5 @@ textarea {
   margin: 30pt;
   display: flex;
   gap: 30pt;
+  flex-wrap: wrap;
 }
