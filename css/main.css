@@ -272,22 +272,27 @@ textarea {
 }
 .portfolio-header{
   grid-area: header;
-  background-color: antiquewhite;
+  background-color: rgb(176, 155, 129);
 }
 .portfolio-body{
   grid-area: body;
-  background-color: green;
+  background-color:antiquewhite;
 }
 .portfolio-footer{
   grid-area: footer;
-  background-color: cornflowerblue;
+  background-color: rgb(73, 56, 42);
 }
 /* HEADER */
-.portfolio-header{
-  background-color: antiquewhite;
-  background-size: cover;
+.header-elements img{
+  max-width: 115px;
+  height: auto;
+}
+.logo{
+  display: contents;
 }
 .header-elements{
+  display: flex;
+  gap: 10px;
   padding-bottom: 10pt;
   padding-top: 15pt;
   max-width: 1000px;
@@ -295,7 +300,13 @@ textarea {
   margin-right: auto;
   text-align: left;
   margin-left: 30pt;
-  line-height: 15pt;
+  color: rgb(51, 34, 19);
+}
+.name{
+  font-size: 35pt;
+}
+.job-title{
+  font-size: 20pt;
 }
 /* NAVIGATION */
 .navigation{
@@ -305,13 +316,15 @@ textarea {
   position: sticky;
   top: 0px;
 }
+
 .navigation a{
   text-decoration: none;
   color: white;
   padding: 14px 16px;
+  font-size: 18pt;
 }
 .dropdown .dropbutton {
-  font-size: 16px;
+  font-size: 18pt;
   background-color: rgb(73, 56, 42);
   border: none;
   padding: 14px 16px;
