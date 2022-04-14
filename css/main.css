@@ -287,6 +287,12 @@ textarea {
   max-width: 115px;
   height: auto;
 }
+@media (max-width: 600px){
+  .header-elements img{
+    max-width: 100px;
+    height: auto;
+  }
+}
 .logo{
   display: contents;
 }
@@ -305,8 +311,18 @@ textarea {
 .name{
   font-size: 35pt;
 }
+@media (max-width: 600px){
+  .name{
+    font-size: 25pt;
+  }
+}
 .job-title{
   font-size: 20pt;
+}
+@media (max-width: 600px){
+  .job-title{
+    font-size: 15pt;
+  }
 }
 /* NAVIGATION */
 .navigation{
@@ -316,18 +332,27 @@ textarea {
   position: sticky;
   top: 0px;
 }
-
 .navigation a{
   text-decoration: none;
   color: white;
   padding: 14px 16px;
   font-size: 18pt;
 }
+@media (max-width: 600px){
+  .navigation a{
+    font-size: 13pt;
+  }
+}
 .dropdown .dropbutton {
   font-size: 18pt;
   background-color: rgb(73, 56, 42);
   border: none;
   padding: 14px 16px;
+}
+@media (max-width: 600px){
+  .dropdown .dropbutton {
+    font-size: 13pt;
+  }
 }
 .dropdown button{
   color: white;
@@ -365,17 +390,45 @@ textarea {
   gap: 60px;
   align-items: center;
 }
+@media (max-width: 800px){
+  .homepage{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10pt;
+    gap: 25px;
+  }
+} 
 .homepage img{
   max-width: 400px;
   height: auto;
 }
+
+@media (max-width: 600px){
+  .homepage img{
+    max-width: 150pt;
+    height: auto;
+    justify-content: center;
+  }
+} 
 .homepage-text{
-  max-width: 50%;
+  max-width: 75%;
   font-size: 20pt;
 }
+@media (max-width: 600px){
+  .homepage-text{
+    font-size: 8pt;
+  }
+} 
 .homepage-title{
   font-size: 30pt;
   color:rgb(51, 34, 19) ;
+}
+@media (max-width: 600px){
+  .homepage-title{
+    font-size: 18pt;
+    color:rgb(51, 34, 19);
+    line-height: 20pt;
+  }
 }
 .resume-button{
   padding: 20px;
@@ -389,7 +442,50 @@ textarea {
   box-shadow: 3px 3px 5px black ;
   border-radius: 8px;
 }
+@media (max-width: 600px){
+  .resume-button button{
+    font-size: 10pt;
+    padding: 10px;
+  }
+}
 .resume-button button:hover{
   background-color:rgb(105, 92, 81);
   box-shadow: inset 0 0 5px rgb(51, 34, 19)
+}
+/* ABOUT PAGE */
+.about-title{
+    font-size: 30pt;
+    color:rgb(51, 34, 19) ;
+}
+.about-text-1{
+    gap: 60px;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text-1 img{
+  max-width: 300px;
+  height: auto;
+}
+.about-container{
+    margin: 50pt;
+}
+.about-line1{
+  max-width: 50%;
+}
+.about-line2{
+  max-width: 50%;
+}
+.about-text-2 img{
+  max-width: 300px;
+  height: auto;
+}
+.about-text-2{
+  gap: 60px;
+  font-size: 20pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
 }
