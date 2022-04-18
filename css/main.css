@@ -464,13 +464,35 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 800px){
+  .about-text-1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 12pt;
+    gap: 12px;
+  }
+} 
 .about-text-1 img{
   max-width: 300px;
   height: auto;
 }
+@media (max-width: 600px){
+  .about-text-1 img{
+    max-width: 225px;
+  }
+} 
 .about-container{
     margin: 50pt;
 }
+@media (max-width: 800px){
+  .about-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25pt;
+    gap: 35pt;
+  }
+} 
 .about-line1{
   max-width: 50%;
 }
@@ -480,7 +502,13 @@ textarea {
 .about-text-2 img{
   max-width: 300px;
   height: auto;
+  margin-top: 25pt;
 }
+@media (max-width: 600px){
+  .about-text-2 img{
+  max-width: 225px;
+  }
+} 
 .about-text-2{
   gap: 60px;
   font-size: 20pt;
@@ -488,4 +516,46 @@ textarea {
   justify-content: center;
   align-items: center;
   text-align: right;
+}
+@media (max-width: 800px){
+  .about-text-2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 12pt;
+    gap: 12px;
+  }
+} 
+/* FOOTER CSS */
+.portfolio-footer{
+  display: flex;
+  max-height: max-content;
+  justify-content: space-around;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footer-headings{
+  color: white;
+  font-size: 20px;
+  /* BOLD THESE MAYBE????? */
+}
+@media (max-width: 600px){
+  .footer-headings{
+    font-size: 15px;
+  }
+}  
+.portfolio-footer li, a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  list-style-type:circle;
+}
+@media (max-width: 600px){
+  .portfolio-footer li, a{
+    font-size: 10px;
+  }
+}  
+.portfolio-footer a:hover{
+  color: blue;
 }
