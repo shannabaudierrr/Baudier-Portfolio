@@ -559,3 +559,19 @@ textarea {
 .portfolio-footer a:hover{
   color: blue;
 }
+.double-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 0.25rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.double-gallery a {
+  display: flex;
+  filter: grayscale(.5);
+}
+
+.double-gallery a:hover {
+  filter: grayscale(1);
+}  
