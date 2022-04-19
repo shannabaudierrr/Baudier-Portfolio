@@ -566,12 +566,14 @@ textarea {
   list-style-type: none;
   padding-left: 0;
 }
-
-.double-gallery a {
+.double-gallery img{
+  max-width: 500px;
+}
+/* .double-gallery a {
   display: flex;
   filter: grayscale(.5);
 }
 
 .double-gallery a:hover {
   filter: grayscale(1);
-}  
+}   */
