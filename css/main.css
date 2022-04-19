@@ -564,16 +564,33 @@ textarea {
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 0.25rem;
   list-style-type: none;
-  padding-left: 0;
+  justify-items: center;
 }
 .double-gallery img{
-  max-width: 500px;
-}
-/* .double-gallery a {
-  display: flex;
-  filter: grayscale(.5);
-}
+  max-width: 400px;
 
+}
+.double-gallery a {
+  display: flex;
+}
 .double-gallery a:hover {
-  filter: grayscale(1);
-}   */
+  filter: blur(5px)
+}  
+.double-gallery a:hover .image-description {
+  visibility: visible;
+  opacity: 1;
+}  
+.image-description{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 50pt;
+  color: rgb(0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+}
+/* FIX THESE LINKS!!!!!! */
+
