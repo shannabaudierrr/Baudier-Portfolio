@@ -559,6 +559,14 @@ textarea {
 .portfolio-footer a:hover{
   color: blue;
 }
+/* ALL WORK PAGE */
+.all-work-gallery{
+  padding: 30pt;
+}
+.all-work-gallery h2{
+  text-align: center;
+  font-size: 30pt;
+}
 .double-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -571,15 +579,16 @@ textarea {
 }
 .double-gallery a {
   display: flex;
+  flex-wrap: wrap;
 }
-/* .double-gallery a:hover {
-  filter: blur(5px)
-}   */
-.double-gallery a:hover .overlay {
+/* .double-gallery li{
+  position: relative;
+  width: 100%;
+}
+.double-gallery li:hover .image-description{
   opacity: 1;
 }
-
-.overlay {
+.image-description{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -590,5 +599,32 @@ textarea {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-}
+} */
 /* IDK ASK PROFESSOR */
+/* .content_img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+ }
+ .content_img div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+ }
+ .content_img:hover{
+  cursor: pointer;
+ }
+ .content_img:hover div{
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+ } */
