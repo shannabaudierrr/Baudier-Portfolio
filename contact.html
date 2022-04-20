@@ -45,7 +45,37 @@
           </div>
         </div>
       <a href="contact.html">Contact Me</a>
-    </nav>   
+    </nav>
+    <div class="contact-form-page">
+        <h1>Contact Me</h1>
+        <form action="thank-you.html">
+           <!-- FIX THIS HTML -->
+          <ul>
+            <li>
+              <label for="name">First Name*</label>
+              <input type="text" id="fname" name="firstname" required placeholder="Your name..." />
+            </li>
+            <li>
+              <label for="name">Last Name*</label>
+              <input type="text" id="lname" name="lastname" required placeholder="Your last name..." />
+            </li>
+            <li>
+              <label for="mail">E-mail Address*</label>
+              <input type="email" id="mail" name="user_email" required placeholder="johndoe@gmail.com"/>
+            </li>
+            <li>
+              <label for="tel">Phone Number</label>
+              <input type="tel" id="phone" name="user_phone" placeholder="(999)-999-9999"/>
+            </li>
+            <li>
+              <label for="msg">Message*</label>
+              <textarea id="msg" name="message" required placeholder="Get in touch..." style="height:200px"></textarea>
+            </li>
+          </ul>
+          <input type="submit" value="Submit">
+          <!-- CENTER SUBMIT BUTTON -->
+        </form> 
+    </div>  
   </body>
   <footer class="portfolio-footer">
     <div class="sitemap">
