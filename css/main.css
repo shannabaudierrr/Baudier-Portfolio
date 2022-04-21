@@ -565,6 +565,14 @@ h1{
 /* ALL WORK PAGE */
 .all-work-gallery{
   padding: 30pt;
+  padding-left: 100pt;
+  padding-right: 100pt;
+}
+@media (max-width: 600px){
+  .all-work-gallery{
+    padding-left: 20pt;
+    padding-right: 20pt;
+  }
 }
 .all-work-gallery h2{
   text-align: center;
@@ -577,7 +585,12 @@ h1{
   list-style-type: none;
   justify-items: center;
   padding-right: 50px;
-  padding-bottom: 50pt;
+  padding-bottom: 25pt;
+}
+@media (max-width: 600px){
+  .single-gallery{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+  }
 }
 .single-gallery img{
   max-width: 500px;
