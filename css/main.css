@@ -347,6 +347,7 @@ h1{
   background-color: rgb(73, 56, 42);
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 .navigation a{
   text-decoration: none;
