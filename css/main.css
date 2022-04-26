@@ -674,6 +674,7 @@ h1{
 .overlay-text{
   font-size: 10pt;
   padding: 8px;
+  text-align: center;
 }
 
 /* CONTACT PAGE */
@@ -684,6 +685,9 @@ h1{
 }
 .contact-form-page li{
   list-style: none;
+}
+.contact-form-page ul{
+  padding-left: 0%;
 }
  input[type=submit] {
   padding: 12px;
