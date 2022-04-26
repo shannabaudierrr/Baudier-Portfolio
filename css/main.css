@@ -718,3 +718,6 @@ textarea {
   margin-bottom: 16px; 
   resize: vertical
 }
+.submit-button-container{
+  text-align: center;
+}
