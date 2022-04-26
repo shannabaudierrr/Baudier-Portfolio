@@ -647,12 +647,34 @@ h1{
   width: 100%;
   border: 3px solid black;
 }
-.linked-gallery:hover a{
+.linked-gallery a:hover{
   border: 3px solid red;
 }
-/* HOVER HELP WITH LINKED GALLERY */
-
-
+.overlay-wrapper {
+  position: relative;
+  max-width: 350px;
+  display: flex;
+}
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(115, 4, 4, 0.75);
+}
+.overlay-content:hover {
+  opacity: 1;
+}
+.overlay-text{
+  font-size: 10pt;
+  padding: 8px;
+}
 
 /* CONTACT PAGE */
 .contact-form-page{
