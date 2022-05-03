@@ -645,7 +645,6 @@ h1{
 .linked-gallery img{
   max-width: 500px;
   width: 100%;
-  border: 3px solid black;
 }
 .linked-gallery a:hover{
   border: 3px solid red;
@@ -654,6 +653,7 @@ h1{
   position: relative;
   max-width: 350px;
   display: flex;
+  border: 3px solid black;
 }
 .overlay-content {
   position: absolute;
