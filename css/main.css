@@ -676,6 +676,11 @@ h1{
   padding: 8px;
   text-align: center;
 }
+@media (max-width: 600px){
+  .overlay-text{
+    font-size: 7pt;
+  }
+}  
 
 /* CONTACT PAGE */
 .contact-form-page{
