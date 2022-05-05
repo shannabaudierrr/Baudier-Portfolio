@@ -678,7 +678,8 @@ h1{
 }
 @media (max-width: 600px){
   .overlay-text{
-    font-size: 7pt;
+    font-size: 4pt;
+    padding: 3px;
   }
 }  
 
