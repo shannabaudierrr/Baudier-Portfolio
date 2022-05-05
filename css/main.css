@@ -326,13 +326,17 @@ h1{
     margin-right: 15px;
   }
 }  
-.name{
+.name a{
   font-size: 46px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  color: rgb(51, 34, 19);
 }
+.name :hover{
+  text-decoration: underline;
+}  
 @media (max-width: 600px){
-  .name{
+  .name a{
     font-size: 33px;
   }
 }
@@ -576,12 +580,14 @@ h1{
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
+  gap: 15px;
 }
 .footer-headings{
   color: white;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  text-align: center;
 }
 @media (max-width: 600px){
   .footer-headings{
@@ -654,7 +660,7 @@ h1{
 }
 @media (max-width: 600px){
   .linked-gallery{
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
   }
 }
 .linked-gallery a {
@@ -697,7 +703,7 @@ h1{
 }
 @media (max-width: 600px){
   .overlay-text{
-    font-size: 5px;
+    font-size: 12px;
     padding: 3px;
   }
 }  
