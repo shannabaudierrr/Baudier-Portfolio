@@ -272,13 +272,13 @@ textarea {
 }
 h1{
   color:rgb(73, 56, 42);
-  font-size: 35pt;
+  font-size: 46px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
 }
 @media (max-width: 600px){
   h1{
-    font-size: 25pt;
+    font-size: 33px;
   }
 }
 
@@ -311,33 +311,39 @@ h1{
 .header-elements{
   display: flex;
   gap: 20px;
-  padding-bottom: 10pt;
-  padding-top: 15pt;
+  padding-bottom: 13px;
+  padding-top: 20px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  margin-left: 30pt;
+  margin-left: 40px;
   color: rgb(51, 34, 19);
 }
+@media (max-width: 600px){
+  .header-elements{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}  
 .name{
-  font-size: 35pt;
+  font-size: 46px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
 }
 @media (max-width: 600px){
   .name{
-    font-size: 25pt;
+    font-size: 33px;
   }
 }
 .job-title{
-  font-size: 20pt;
+  font-size: 26px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
 }
 @media (max-width: 600px){
   .job-title{
-    font-size: 15pt;
+    font-size: 20px;
   }
 }
 /* NAVIGATION */
@@ -353,12 +359,12 @@ h1{
   text-decoration: none;
   color: white;
   padding: 14px 16px;
-  font-size: 18pt;
+  font-size: 24px;
   font-family: 'Playfair Display', serif;
 }
 @media (max-width: 600px){
   .navigation a{
-    font-size: 13pt;
+    font-size: 17px;
   }
 }
 .dropdown .dropbutton {
@@ -369,7 +375,8 @@ h1{
 }
 @media (max-width: 600px){
   .dropdown .dropbutton {
-    font-size: 13pt;
+    font-size: 17px;
+    height: 100%;
   }
 }
 .dropdown button{
@@ -402,7 +409,7 @@ h1{
 }
 /* HOME PAGE */
 .homepage{
-  margin: 30pt;
+  margin: 40px;
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -412,7 +419,7 @@ h1{
   .homepage{
     display: flex;
     flex-wrap: wrap;
-    margin: 10pt;
+    margin: 13px;
     gap: 25px;
   }
 } 
@@ -430,25 +437,26 @@ h1{
 } 
 .homepage-text{
   max-width: 75%;
-  font-size: 20pt;
+  font-size: 26px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 @media (max-width: 600px){
   .homepage-text{
-    font-size: 8pt;
+    font-size: 13px;
   }
 } 
 .homepage-title{
-  font-size: 30pt;
+  font-size: 40px;
   color:rgb(51, 34, 19) ;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  
 }
 @media (max-width: 600px){
   .homepage-title{
-    font-size: 18pt;
-    line-height: 20pt;
+    font-size: 24px;
+    line-height: 35px;
   }
 }
 .resume-button{
@@ -458,7 +466,7 @@ h1{
 .resume-button button{
   background-color: rgb(73, 56, 42);
   color: white;
-  font-size: 16pt;
+  font-size: 21px;
   font-family: 'Playfair Display', serif;
   padding: 15px;
   box-shadow: 3px 3px 5px black ;
@@ -466,8 +474,8 @@ h1{
 }
 @media (max-width: 600px){
   .resume-button button{
-    font-size: 10pt;
-    padding: 10px;
+    font-size: 13px;
+    padding: 13px;
   }
 }
 .resume-button button:hover{
@@ -477,11 +485,11 @@ h1{
 /* ABOUT PAGE */
 .about-text-1 h1{
   margin-top:0pt;
-  margin-bottom: 8pt;
+  margin-bottom: 10px;
 }
 .about-text-1{
     gap: 60px;
-    font-size: 20pt;
+    font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,7 +500,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 12pt;
+    font-size: 13px;
     gap: 12px;
   }
 } 
@@ -506,26 +514,36 @@ h1{
   }
 } 
 .about-container{
-    margin: 50pt;
+    margin: 66px;
 }
 @media (max-width: 800px){
   .about-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 25pt;
-    gap: 35pt;
+    margin: 33px;
+    gap: 28px;
   }
 } 
 .about-line1{
   max-width: 50%;
 }
+@media (max-width: 600px){
+  .about-line1{
+    max-width: 100%;
+  }
+}    
 .about-line2{
   max-width: 50%;
 }
+@media (max-width: 600px){
+  .about-line2{
+    max-width: 100%;
+  }
+}   
 .about-text-2 img{
   max-width: 300px;
   height: auto;
-  margin-top: 25pt;
+  margin-top: 33px;
 }
 @media (max-width: 600px){
   .about-text-2 img{
@@ -534,7 +552,7 @@ h1{
 } 
 .about-text-2{
   gap: 60px;
-  font-size: 20pt;
+  font-size: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -546,7 +564,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 12pt;
+    font-size: 13px;
     gap: 12px;
   }
 } 
@@ -579,7 +597,8 @@ h1{
 }
 @media (max-width: 600px){
   .portfolio-footer li, a{
-    font-size: 10px;
+    font-size: 12px;
+    justify-content: space-between;
   }
 }  
 .portfolio-footer a:hover{
@@ -587,14 +606,14 @@ h1{
 }
 /* ALL WORK PAGE */
 .all-work-gallery{
-  padding: 30pt;
-  padding-left: 100pt;
-  padding-right: 100pt;
+  padding: 40px;
+  padding-left: 133px;
+  padding-right: 133px;
 }
 @media (max-width: 600px){
   .all-work-gallery{
-    padding-left: 10pt;
-    padding-right: 10pt;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 .all-work-gallery h1{
@@ -604,11 +623,11 @@ h1{
 .gallery{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 15pt;
+  grid-gap: 20px;
   list-style-type: none;
   justify-items: center;
   padding-right: 50px;
-  padding-bottom: 25pt;
+  padding-bottom: 33px;
 }
 @media (max-width: 600px){
   .gallery{
@@ -627,11 +646,11 @@ h1{
 .linked-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 15pt;
+  grid-gap: 20px;
   list-style-type: none;
   justify-items: center;
   padding-right: 50px;
-  padding-bottom: 25pt;
+  padding-bottom: 33px;
 }
 @media (max-width: 600px){
   .linked-gallery{
@@ -672,13 +691,13 @@ h1{
   opacity: 1;
 }
 .overlay-text{
-  font-size: 10pt;
-  padding: 8px;
+  font-size: 13px;
+  padding: 10.6px;
   text-align: center;
 }
 @media (max-width: 600px){
   .overlay-text{
-    font-size: 4pt;
+    font-size: 5px;
     padding: 3px;
   }
 }  
@@ -686,9 +705,21 @@ h1{
 /* CONTACT PAGE */
 .contact-form-page{
   margin: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+@media (max-width: 1000px){
+  .contact-form-page{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}  
+@media (max-width: 600px){
+  .contact-form-page{
+    margin-left: 35px;
+  margin-right: 35px;
+  }
+}  
 .contact-form-page li{
   list-style: none;
 }
@@ -699,7 +730,7 @@ h1{
   padding: 12px;
   background-color: rgb(73, 56, 42);
   color: white;
-  font-size: 15pt;
+  font-size: 20px;
   font-family: 'Playfair Display', serif;
   box-shadow: 3px 3px 5px black ;
   border-radius: 4px;
@@ -729,7 +760,7 @@ textarea {
 }
 .thankyou-page{
   text-align: center;
-  padding: 50pt;
+  padding: 66px;
   height: 510px;
 }
 @media (max-width: 600px){
@@ -739,10 +770,10 @@ textarea {
 }
 .thankyou-subtext{
   font-family: 'Lato', sans-serif;
-  font-size: 25pt;
+  font-size: 33px;
 }
 @media (max-width: 600px){
   .thankyou-subtext{
-    font-size: 15pt;
+    font-size: 20px;
   }
 }
